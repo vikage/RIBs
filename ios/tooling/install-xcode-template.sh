@@ -16,6 +16,8 @@ xcodeTemplate () {
   cp -R $SCRIPT_DIR/*.xctemplate "$XCODE_TEMPLATE_DIR"
   cp -R $SCRIPT_DIR/RIB.xctemplate/ownsView/* "$XCODE_TEMPLATE_DIR/RIB.xctemplate/ownsViewwithXIB/"
   cp -R $SCRIPT_DIR/RIB.xctemplate/ownsView/* "$XCODE_TEMPLATE_DIR/RIB.xctemplate/ownsViewwithStoryboard/"
+  cp -R $SCRIPT_DIR/RIB-Interfaces.xctemplate/ownsView/* "$XCODE_TEMPLATE_DIR/RIB-Interfaces.xctemplate/ownsViewwithXIB/"
+  cp -R $SCRIPT_DIR/RIB-Interfaces.xctemplate/ownsView/* "$XCODE_TEMPLATE_DIR/RIB-Interfaces.xctemplate/ownsViewwithStoryboard/"
 }
 
 xcodeTemplate
