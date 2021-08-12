@@ -11,9 +11,9 @@ public protocol ___VARIABLE_productName___Buildable: Buildable {
 }
 
 public protocol ___VARIABLE_productName___Routing: ViewableRouting {
-    
+
 }
 
 public protocol ___VARIABLE_productName___Listener: AnyObject {
-    
+
 }

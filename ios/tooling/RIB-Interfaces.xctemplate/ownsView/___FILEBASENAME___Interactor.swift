@@ -9,7 +9,7 @@ protocol ___VARIABLE_productName___Presentable: Presentable {
 }
 
 protocol ___VARIABLE_productName___RoutingInternal: ___VARIABLE_productName___Routing {
-    
+
 }
 
 final class ___VARIABLE_productName___Interactor: PresentableInteractor<___VARIABLE_productName___Presentable>, ___VARIABLE_productName___Interactable, ___VARIABLE_productName___PresentableListener {

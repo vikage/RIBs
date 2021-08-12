@@ -9,7 +9,7 @@ protocol ___VARIABLE_productName___Interactable: Interactable {
 }
 
 protocol ___VARIABLE_productName___ViewControllable: ViewControllable {
-    
+
 }
 
 final class ___VARIABLE_productName___Router: ViewableRouter<___VARIABLE_productName___Interactable, ___VARIABLE_productName___ViewControllable>, ___VARIABLE_productName___RoutingInternal {
